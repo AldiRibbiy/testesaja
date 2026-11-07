@@ -1735,7 +1735,6 @@ Atribut `namaPegawai` tidak diakses langsung oleh kelas lain. Kelas lain menggun
 
 > **Gambar 12. Bukti encapsulation pada `Pegawai.java`**
 
-![Gambar 12 - Encapsulation](images/12_OOP_Encapsulation.png)
 
 **Arahan screenshot:** Sorot deklarasi atribut `private` serta method getter dan setter dalam `model/Pegawai.java`.
 
@@ -1930,7 +1929,6 @@ Siapkan MySQL dan impor `DATABASE_ASLI_DBCobaltCMOS.sql` sesuai panduan proyek. 
 
 > **Gambar 19. Konfigurasi database MySQL**
 
-![Gambar 19 - Konfigurasi database MySQL](images/019_Konfigurasi_database_MySQL.png)
 
 **Arahan screenshot:** Ambil screenshot daftar tabel dari aplikasi pengelola MySQL. **Yang harus terlihat:** Nama database, tabel utama, dan status koneksi tanpa memperlihatkan password.
 
@@ -1940,7 +1938,6 @@ Jalankan entry point `app.Main`. Aplikasi melakukan inisialisasi sebelum menampi
 
 > **Gambar 20. Menjalankan Main Java**
 
-![Gambar 20 - Menjalankan Main Java](images/020_Menjalankan_Main_Java.png)
 
 **Arahan screenshot:** Klik Run Project atau jalankan `app.Main`. **Yang harus terlihat:** Jendela aplikasi saat pertama kali dibuka.
 
@@ -1960,7 +1957,6 @@ Setelah loading berhasil, `view.LandingFrame` menampilkan pengenalan C-MOS. Hala
 
 > **Gambar 22. Landing page C-MOS**
 
-![Gambar 22 - Landing page C-MOS](images/022_Landing_page_C_MOS.png)
 
 **Arahan screenshot:** Tampilkan halaman landing pada ukuran jendela normal. **Yang harus terlihat:** Identitas C-MOS, tombol login, dan konten pengenalan.
 
@@ -1990,7 +1986,6 @@ Setelah autentikasi berhasil, `view.MainFrameRouter` membuka salah satu dari `Ma
 
 > **Gambar 25. Percabangan hak akses setelah login**
 
-![Gambar 25 - Percabangan hak akses setelah login](images/025_Percabangan_hak_akses_setelah_login.png)
 
 **Arahan screenshot:** Buat bagan sederhana percabangan login dan empat peran, atau screenshot empat halaman utama secara terpisah. **Yang harus terlihat:** Login → pemeriksaan akun → Admin/Operasional/HSE/Manager.
 
@@ -2006,7 +2001,6 @@ Masuk dengan akun milik subtype Admin. Sistem membuka `view.MainFrameAdmin`. Per
 
 > **Gambar 26. Login sebagai Admin**
 
-![Gambar 26 - Login sebagai Admin](images/026_Login_sebagai_Admin.png)
 
 **Arahan screenshot:** Login memakai akun Admin uji. **Yang harus terlihat:** Nama pengguna, peran Admin, sidebar dan judul halaman.
 
@@ -2116,7 +2110,6 @@ Buka `UserFormFrame`. Pilih pegawai yang berhak login, isi username serta kreden
 
 > **Gambar 37. Tambah akun dan menghubungkan Pegawai**
 
-![Gambar 37 - Tambah akun dan menghubungkan Pegawai](images/037_Tambah_akun_dan_menghubungkan_Pegawai.png)
 
 **Arahan screenshot:** Ambil screenshot combo pegawai dan form sebelum menyimpan, tutup informasi rahasia. **Yang harus terlihat:** Pilihan pegawai, username, status akun, dan tombol Simpan/Batal.
 
@@ -2126,7 +2119,6 @@ Pilih akun lalu lakukan pembaruan yang diizinkan. Periksa status aktif/nonaktif 
 
 > **Gambar 38. Ubah akun dan pemeriksaan akses**
 
-![Gambar 38 - Ubah akun dan pemeriksaan akses](images/038_Ubah_akun_dan_pemeriksaan_akses.png)
 
 **Arahan screenshot:** Pilih baris akun uji dan buka Ubah. **Yang harus terlihat:** Data akun terpilih dan opsi pengelolaan.
 
@@ -2290,7 +2282,6 @@ Uji jumlah produksi tidak valid, data kosong, atau pilihan lokasi yang tidak ses
 
 > **Gambar 54. Validasi produksi dan simpan**
 
-![Gambar 54 - Validasi produksi dan simpan](images/054_Validasi_produksi_dan_simpan.png)
 
 **Arahan screenshot:** Ambil pesan validasi dan kemudian hasil simpan. **Yang harus terlihat:** Validasi dan baris produksi baru.
 
@@ -2330,7 +2321,6 @@ Pastikan jumlah muatan tidak melebihi kapasitas kendaraan maupun material produk
 
 > **Gambar 58. Memeriksa kapasitas dan stok sebelum penjadwalan**
 
-![Gambar 58 - Memeriksa kapasitas dan stok sebelum penjadwalan](images/058_Memeriksa_kapasitas_dan_stok_sebelum_penjadwalan.png)
 
 **Arahan screenshot:** Isi muatan melebihi kapasitas pada data uji. **Yang harus terlihat:** Pesan validasi yang muncul tanpa menyimpan data salah.
 
@@ -2340,7 +2330,6 @@ Simpan pengangkutan valid. Periksa status DIJADWALKAN di tabel, data detail, dan
 
 > **Gambar 59. Jadwal tersimpan dan status Dijadwalkan**
 
-![Gambar 59 - Jadwal tersimpan dan status Dijadwalkan](images/059_Jadwal_tersimpan_dan_status_Dijadwalkan.png)
 
 **Arahan screenshot:** Simpan jadwal uji. **Yang harus terlihat:** Baris status DIJADWALKAN dan panel detail.
 
@@ -2350,7 +2339,6 @@ Pilih jadwal lalu tekan Mulai Perjalanan. Sistem menjalankan `PengangkutanServic
 
 > **Gambar 60. Memulai perjalanan**
 
-![Gambar 60 - Memulai perjalanan](images/060_Memulai_perjalanan.png)
 
 **Arahan screenshot:** Pilih jadwal dan tekan Mulai Perjalanan. **Yang harus terlihat:** Status DALAM_PERJALANAN dan perubahan informasi kesiapan.
 
@@ -2360,7 +2348,6 @@ Pilih perjalanan aktif lalu tekan Selesaikan. `PengangkutanService.selesaikanPen
 
 > **Gambar 61. Menyelesaikan pengangkutan**
 
-![Gambar 61 - Menyelesaikan pengangkutan](images/061_Menyelesaikan_pengangkutan.png)
 
 **Arahan screenshot:** Selesaikan satu perjalanan uji. **Yang harus terlihat:** Status SELESAI, waktu selesai, dan stok setelah pengangkutan.
 
@@ -2370,7 +2357,6 @@ Untuk pengangkutan yang dapat dibatalkan, pilih data dan tekan Batalkan. Konfirm
 
 > **Gambar 62. Membatalkan pengangkutan**
 
-![Gambar 62 - Membatalkan pengangkutan](images/062_Membatalkan_pengangkutan.png)
 
 **Arahan screenshot:** Batalkan jadwal uji yang diizinkan. **Yang harus terlihat:** Dialog konfirmasi dan status DIBATALKAN.
 
@@ -2390,7 +2376,6 @@ Gunakan Ubah Akun jika perlu memperbarui kredensial. Tekan Keluar Akun untuk men
 
 > **Gambar 64. Ubah Akun dan Logout Operasional**
 
-![Gambar 64 - Ubah Akun dan Logout Operasional](images/064_Ubah_Akun_dan_Logout_Operasional.png)
 
 **Arahan screenshot:** Buka Ubah Akun lalu logout. **Yang harus terlihat:** Form akun dan halaman setelah logout.
 
@@ -2444,7 +2429,6 @@ Klik satu kartu lokasi. Panel detail menampilkan nama lokasi, jenis, status oper
 
 > **Gambar 69. Memilih lokasi dan memeriksa pengukuran terakhir**
 
-![Gambar 69 - Memilih lokasi dan memeriksa pengukuran terakhir](images/069_Memilih_lokasi_dan_memeriksa_pengukuran_terakhir.png)
 
 **Arahan screenshot:** Pilih lokasi yang sudah pernah dimonitoring. **Yang harus terlihat:** Kartu aktif dan detail parameter lokasi.
 
@@ -2464,7 +2448,6 @@ Selama status MENUNGGU, tombol menunjukkan Menunggu Persetujuan Manager dan moni
 
 > **Gambar 71. Monitoring menunggu persetujuan**
 
-![Gambar 71 - Monitoring menunggu persetujuan](images/071_Monitoring_menunggu_persetujuan.png)
 
 **Arahan screenshot:** Buka kembali lokasi yang telah diajukan. **Yang harus terlihat:** Label/tombol status MENUNGGU.
 
@@ -2474,7 +2457,6 @@ Setelah Manager menyetujui, tombol berubah menjadi Mulai Monitoring (Disetujui).
 
 > **Gambar 72. Memulai monitoring setelah disetujui**
 
-![Gambar 72 - Memulai monitoring setelah disetujui](images/072_Memulai_monitoring_setelah_disetujui.png)
 
 **Arahan screenshot:** Login kembali sebagai HSE setelah persetujuan, buka lokasi. **Yang harus terlihat:** Tombol mulai, form tanggal/lokasi/catatan.
 
@@ -2484,7 +2466,6 @@ Simpan form monitoring. Sistem membuat kegiatan yang dapat dilanjutkan dengan pe
 
 > **Gambar 73. Menyimpan kegiatan monitoring**
 
-![Gambar 73 - Menyimpan kegiatan monitoring](images/073_Menyimpan_kegiatan_monitoring.png)
 
 **Arahan screenshot:** Tekan Simpan pada data uji valid. **Yang harus terlihat:** Pesan “Monitoring dimulai” dan data kegiatan.
 
@@ -2504,7 +2485,6 @@ Tekan Tambah Pengukuran untuk membuka `DetailMonitoringFormFrame`. Pilih paramet
 
 > **Gambar 75. Menambah hasil pengukuran parameter**
 
-![Gambar 75 - Menambah hasil pengukuran parameter](images/075_Menambah_hasil_pengukuran_parameter.png)
 
 **Arahan screenshot:** Buka form Tambah Pengukuran. **Yang harus terlihat:** Combo parameter, nilai, satuan/batas jika tampil, dan catatan.
 
@@ -2514,7 +2494,6 @@ Simpan hasil pengukuran valid lalu periksa status yang dihitung sistem. Bedakan 
 
 > **Gambar 76. Hasil Normal, Peringatan dan Berbahaya**
 
-![Gambar 76 - Hasil Normal, Peringatan dan Berbahaya](images/076_Hasil_Normal_Peringatan_dan_Berbahaya.png)
 
 **Arahan screenshot:** Gunakan data uji parameter dalam batas dan di luar batas. **Yang harus terlihat:** Tabel hasil dengan status dan warna sesuai kondisi.
 
@@ -2524,7 +2503,6 @@ Selama kegiatan mengizinkan perubahan, pilih detail lalu gunakan Ubah Pengukuran
 
 > **Gambar 77. Mengubah atau menghapus detail pengukuran**
 
-![Gambar 77 - Mengubah atau menghapus detail pengukuran](images/077_Mengubah_atau_menghapus_detail_pengukuran.png)
 
 **Arahan screenshot:** Pilih detail uji dan tampilkan form ubah/konfirmasi hapus. **Yang harus terlihat:** Tombol pengelolaan dan hasil perubahan tabel.
 
@@ -2534,7 +2512,6 @@ Pada Kondisi Lokasi, tombol Info Peringatan Manager digunakan untuk memastikan h
 
 > **Gambar 78. Menginformasikan peringatan kepada Manager**
 
-![Gambar 78 - Menginformasikan peringatan kepada Manager](images/078_Menginformasikan_peringatan_kepada_Manager.png)
 
 **Arahan screenshot:** Pilih lokasi berstatus peringatan/berbahaya lalu tekan tombol informasi. **Yang harus terlihat:** Tombol Info Peringatan Manager dan notifikasi.
 
@@ -2544,7 +2521,6 @@ Ikuti alur penanganan melalui MonitoringDetailFrame dan service: status belum di
 
 > **Gambar 79. Menangani monitoring bermasalah**
 
-![Gambar 79 - Menangani monitoring bermasalah](images/079_Menangani_monitoring_bermasalah.png)
 
 **Arahan screenshot:** Buka detail monitoring bermasalah. **Yang harus terlihat:** Status penanganan dan data tindak lanjut.
 
@@ -2554,7 +2530,6 @@ Tekan Selesai Penanganan ketika syarat pengukuran dan status kegiatan terpenuhi.
 
 > **Gambar 80. Menyelesaikan penanganan**
 
-![Gambar 80 - Menyelesaikan penanganan](images/080_Menyelesaikan_penanganan.png)
 
 **Arahan screenshot:** Selesaikan satu kasus uji. **Yang harus terlihat:** Tombol selesai, status penanganan baru dan perubahan KPI.
 
@@ -2584,7 +2559,6 @@ Buka Ubah Akun bila perlu, lalu Keluar Akun untuk mengakhiri sesi HSE.
 
 > **Gambar 83. Ubah Akun dan Logout HSE**
 
-![Gambar 83 - Ubah Akun dan Logout HSE](images/083_Ubah_Akun_dan_Logout_HSE.png)
 
 **Arahan screenshot:** Ambil gambar menu Ubah Akun dan logout. **Yang harus terlihat:** Perubahan halaman setelah keluar.
 
@@ -2648,7 +2622,6 @@ Pilih satu permintaan, tekan Setujui Permintaan Terpilih, lalu konfirmasi. `Moni
 
 > **Gambar 89. Menyetujui permintaan monitoring HSE**
 
-![Gambar 89 - Menyetujui permintaan monitoring HSE](images/089_Menyetujui_permintaan_monitoring_HSE.png)
 
 **Arahan screenshot:** Pilih permintaan uji lalu tekan Setujui. **Yang harus terlihat:** Dialog konfirmasi dan pesan permintaan disetujui.
 
@@ -2688,7 +2661,6 @@ Source menyediakan `LaporanPengangkutanPanel`, tetapi menu Manager pada versi in
 
 > **Gambar 93. Tinjauan informasi pengangkutan**
 
-![Gambar 93 - Tinjauan informasi pengangkutan](images/093_Tinjauan_informasi_pengangkutan.png)
 
 **Arahan screenshot:** Periksa menu Manager pada aplikasi versi ZIP ini. **Yang harus terlihat:** Menu yang benar-benar tampil, tanpa menu Pengangkutan tambahan.
 
@@ -2698,7 +2670,6 @@ Gunakan Ubah Akun bila perlu, lalu Keluar Akun. Sesi Manager berakhir dan penggu
 
 > **Gambar 94. Ubah Akun dan Logout Manager**
 
-![Gambar 94 - Ubah Akun dan Logout Manager](images/094_Ubah_Akun_dan_Logout_Manager.png)
 
 **Arahan screenshot:** Buka menu akun lalu logout. **Yang harus terlihat:** Form Ubah Akun dan halaman setelah logout.
 
@@ -2710,7 +2681,6 @@ Admin memastikan lokasi PIT, material, kendaraan, driver, parameter, dan akun pe
 
 > **Gambar 95. Admin menyiapkan master data**
 
-![Gambar 95 - Admin menyiapkan master data](images/095_Admin_menyiapkan_master_data.png)
 
 **Arahan screenshot:** Buka halaman data master Admin. **Yang harus terlihat:** Data referensi yang nanti dipakai dalam produksi dan monitoring.
 
@@ -2720,7 +2690,6 @@ Operasional mencatat produksi pada lokasi PIT dan material yang dibuat Admin, ke
 
 > **Gambar 96. Operasional membuat produksi dan pengangkutan**
 
-![Gambar 96 - Operasional membuat produksi dan pengangkutan](images/096_Operasional_membuat_produksi_dan_pengangkutan.png)
 
 **Arahan screenshot:** Tampilkan data produksi lalu form pengangkutan. **Yang harus terlihat:** Relasi produksi, kendaraan, driver dan lokasi.
 
@@ -2730,7 +2699,6 @@ Selesaikan perjalanan dan bandingkan sisa stok sebelum serta sesudah. Pastikan p
 
 > **Gambar 97. Perubahan stok setelah perjalanan selesai**
 
-![Gambar 97 - Perubahan stok setelah perjalanan selesai](images/097_Perubahan_stok_setelah_perjalanan_selesai.png)
 
 **Arahan screenshot:** Ambil dua screenshot data stok sebelum dan sesudah. **Yang harus terlihat:** Nilai stok dan status pengangkutan.
 
@@ -2740,7 +2708,6 @@ HSE memilih lokasi, mengajukan alasan monitoring, lalu Manager membuka permintaa
 
 > **Gambar 98. HSE mengajukan monitoring dan Manager menyetujui**
 
-![Gambar 98 - HSE mengajukan monitoring dan Manager menyetujui](images/098_HSE_mengajukan_monitoring_dan_Manager_menyetujui.png)
 
 **Arahan screenshot:** Ambil layar HSE sebelum dan setelah persetujuan serta layar Manager. **Yang harus terlihat:** Status MENUNGGU → DISETUJUI → monitoring dimulai.
 
@@ -2750,7 +2717,6 @@ HSE memasukkan nilai parameter. Monitoring berstatus peringatan/berbahaya terlih
 
 > **Gambar 99. HSE mengisi parameter dan Manager meninjau**
 
-![Gambar 99 - HSE mengisi parameter dan Manager meninjau](images/099_HSE_mengisi_parameter_dan_Manager_meninjau.png)
 
 **Arahan screenshot:** Tampilkan hasil pengukuran HSE dan detail Manager. **Yang harus terlihat:** Status dan nilai parameter yang konsisten lintas peran.
 
@@ -2760,7 +2726,6 @@ Uji filter periode, status, pencarian, tombol Batal, serta percobaan akses fitur
 
 > **Gambar 100. Filter dan pembatasan akses**
 
-![Gambar 100 - Filter dan pembatasan akses](images/100_Filter_dan_pembatasan_akses.png)
 
 **Arahan screenshot:** Ambil screenshot filter sebelum/sesudah dan validasi. **Yang harus terlihat:** Hasil yang berubah sesuai filter dan tidak ada aksi terlarang.
 
